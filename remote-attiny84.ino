@@ -84,7 +84,7 @@ void TurnOn_AMU178(void) {
   int i;
   Send_AMU178(RM_AMU178_POWER);
   delay(7000);
-  for (i = 0; i < 9; i++) {
+  for (i = 0; i < 10; i++) {
     Send_AMU178(RM_AMU178_SLEEP);
   }
 }
